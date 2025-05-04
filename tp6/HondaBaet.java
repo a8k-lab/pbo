@@ -1,8 +1,5 @@
 package tp6;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-
 public class HondaBaet extends SepedaMotor {
   public HondaBaet(String warnaMotor) {
     super(warnaMotor);
@@ -17,7 +14,6 @@ public class HondaBaet extends SepedaMotor {
     }
     System.out.println("Sepeda motor sedang berjalan");
     String habis = cekKapanHabis();
-    DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
     System.out.println("Motor Baet akan habis pada " + habis);
     return true;
   }

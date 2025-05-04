@@ -1,8 +1,5 @@
 package tp6;
 
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-
 public class YamahaMoi extends SepedaMotor {
   public YamahaMoi(String warnaMotor) {
     super(warnaMotor);
